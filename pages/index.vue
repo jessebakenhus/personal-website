@@ -25,11 +25,11 @@
             </ul>
 
             <ol class="flex flex-col gap-3 py-12">
-                <li class="p-4 pr-8 bg-stone-900 border border-stone-700 rounded">
+                <li class="p-4 pr-8 text-sm sm:text-base bg-stone-900 border border-stone-700 rounded">
                     <div class="flex justify-between items-center">
                         <div class="flex items-center gap-4">
-                            <NuxtImg class="size-16" src="projects.svg" />                     
-                            <div class="max-w-52 sm:max-w-full">
+                            <NuxtImg class="sm:size-16 size-8" src="projects.svg" />                     
+                            <div class="max-w-32 sm:max-w-full">
                                 <h2 class="text-white">Projects</h2>
                                 <p class="text-stone-500 font-light">Projects I have worked on or am working on</p>
                             </div>
@@ -39,12 +39,12 @@
                         </div>
                     </div>
                 </li>
-                <li class="p-4 pr-8 bg-stone-900 border border-stone-700 rounded">
+                <li class="p-4 pr-8 text-sm sm:text-base bg-stone-900 border border-stone-700 rounded">
                     <div class="flex justify-between items-center">
                         <div class="flex items-center gap-4" style="flex-shrink: 2;">
-                            <NuxtImg class="size-16" src="spotify.png" />                     
-                            <div class="max-w-52 sm:max-w-full">
-                                <h2 class=" text-white">My Playlist</h2>
+                            <NuxtImg class="sm:size-16 size-8" src="spotify.png" />                     
+                            <div class="max-w-32 sm:max-w-full">
+                                <h2 class="text-white">My Playlist</h2>
                                 <p class="text-stone-500 font-light">All my songs I listen to when I'm at the gym or work.</p>
                             </div>
                         </div>
